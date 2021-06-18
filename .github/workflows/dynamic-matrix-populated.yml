@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: Set matrix
+      - id: set-matrix
         name: Set the matrix
         # This can be the output of a script to determine exactly what the \
         # matrix will look like.

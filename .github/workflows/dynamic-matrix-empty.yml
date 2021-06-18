@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: Set matrix
+      - id: set-matrix
         name: Set the matrix
         run: echo "::set-output name=matrix::{\"include\":[]}"
 
